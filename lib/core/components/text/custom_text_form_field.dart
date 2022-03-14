@@ -45,11 +45,11 @@ class CustomTFF extends StatelessWidget {
       this.onChanged,
       this.textInputAction,
       this.borderWidth = 2.0,
-      this.labelColor = MyColors.colorPrimary,
+      this.labelColor = Colors.white,
       this.fillColor,
       this.textColor = Colors.black,
       this.hintColor = Colors.white,
-      this.borderColor = MyColors.colorPrimary,
+      this.borderColor = Colors.white,
       this.obsecureText = false})
       : super(key: key);
 

@@ -1,35 +1,11 @@
+
 import 'package:flutter/material.dart';
 
-class MyColors {
-  static const MaterialColor colorPrimary = MaterialColor(
-    0xFF189fd7,
-    <int, Color>{
-      50: Color(0xFF189fd7),
-      100: Color(0xFF189fd7),
-      200: Color(0xFF189fd7),
-      300: Color(0xFF189fd7),
-      400: Color(0xFF189fd7),
-      500: Color(0xFF189fd7),
-      600: Color(0xFF189fd7),
-      700: Color(0xFF189fd7),
-      800: Color(0xFF189fd7),
-      900: Color(0xFF189fd7),
-    },
-  );
+const Color primaryColor = Color(0xFF9B51E0);
+const Color primaryColorLight = Color(0xFFBB6BD9);
 
-  static const MaterialColor colorPrimarySwitch = MaterialColor(
-    0xFF25aae1,
-    <int, Color>{
-      50: Color(0xFF25aae1),
-      100: Color(0xFF25aae1),
-      200: Color(0xFF25aae1),
-      300: Color(0xFF25aae1),
-      400: Color(0xFF25aae1),
-      500: Color(0xFF25aae1),
-      600: Color(0xFF25aae1),
-      700: Color(0xFF25aae1),
-      800: Color(0xFF25aae1),
-      900: Color(0xFF25aae1),
-    },
-  );
-}
+
+const Color backgroundWhiteColor = Color(0xFFF8F8FA);
+
+const Color brandBlackColor = Color(0xFF3B383A);
+const Color greyColor = Color(0xFFA3A3A3);
